@@ -20,7 +20,7 @@ As is, the necessary javascript source files come with the pip install. Whenever
 
 Make sure you have a localhost Pokemon Showdown Server running.
 
-Then, see the code in [test.py](https://github.com/spktrm/meloetta/blob/main/meloetta/frameworks/nash_ketchum/train.py)
+Then, see the code in [train.py](https://github.com/spktrm/meloetta/blob/main/meloetta/frameworks/nash_ketchum/train.py)
 
 # Manual Sync (Optional)
 

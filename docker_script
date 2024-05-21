@@ -1,0 +1,5 @@
+docker run -it -d \
+  --name pokemon-showdown \
+  -p 8000:8000 \
+  -v /path-to-config/:/pokemon-showdown/config/ \
+  server

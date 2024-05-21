@@ -6,7 +6,7 @@ import shutil
 from py_mini_racer import MiniRacer
 
 
-PS_CLIENT_DIR = "pokemon-showdown-client"
+PS_CLIENT_DIR = "./pokemon-showdown-client"
 
 CLIENT_SRC = [
     f"{PS_CLIENT_DIR}/data/pokemon-showdown/dist/data/abilities.js",
