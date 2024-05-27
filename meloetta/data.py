@@ -67,7 +67,7 @@ def load_feature_embedding(type: str, gen: int):
 
 
 Schema = Dict[str, Dict[str, Dict[str, Dict[str, Any]]]]
-with open(os.path.join("meloetta/pretrained/schema.json"), "r") as f:
+with open(os.path.join(f"{ROOT_DIR}/pretrained/schema.json"), "r") as f:
     schema: Schema = json.loads(f.read())
 
 TOKENIZED_SCHEMA = deepcopy(schema)
